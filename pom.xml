@@ -21,6 +21,10 @@
 	<modules>
 		<module>gateway-api</module>
 		<module>gateway-common</module>
+		<module>gateway-core-service</module>
+		<module>gateway-dubbo-service</module>
+		<module>gateway-http-service</module>
+		<module>gateway-dal</module>
 	</modules>
 
 	<properties>

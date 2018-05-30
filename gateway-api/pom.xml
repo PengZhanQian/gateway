@@ -37,7 +37,7 @@
 
 		<dependency>
 			<groupId>com.qianpz</groupId>
-			<artifactId>gateway-common</artifactId>
+			<artifactId>gateway-core-service</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
