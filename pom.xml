@@ -20,5 +20,6 @@
 
 	<modules>
 		<module>gateway-api</module>
+		<module>gateway-common</module>
 	</modules>
 </project>
