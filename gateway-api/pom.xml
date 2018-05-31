@@ -24,16 +24,28 @@
 	</properties>
 
 	<dependencies>
+		<!-- springboot 启动 jar -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
+			<version>1.5.13.RELEASE</version>
 		</dependency>
 
+		<!-- springboot web jar-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>1.5.13.RELEASE</version>
+		</dependency>
+
+		<!-- springboot 测试jar-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
+			<version>1.5.13.RELEASE</version>
 			<scope>test</scope>
 		</dependency>
+
 
 		<dependency>
 			<groupId>com.qianpz</groupId>
@@ -47,6 +59,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>1.5.13.RELEASE</version>
 			</plugin>
 		</plugins>
 	</build>
