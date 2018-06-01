@@ -1,5 +1,7 @@
 package com.qianpz.gateway.core.service.module.user;
 
+import com.qianpz.gateway.core.service.vo.user.UserVO;
+
 /**
  * @author qianpengzhan
  * @DESC ${DESCRIPTION}
@@ -7,4 +9,10 @@ package com.qianpz.gateway.core.service.module.user;
  * @email qianpz@jcgroup.com.cn
  **/
 public interface UserService {
+    /**
+     * 插入表
+     * @param entity entity
+     * @return Long
+     */
+    UserVO insert(UserVO entity);
 }
