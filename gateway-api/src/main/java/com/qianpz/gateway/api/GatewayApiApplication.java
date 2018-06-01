@@ -11,7 +11,6 @@ import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 @ComponentScan(basePackages = "com.qianpz.gateway")
-@EnableConfigurationProperties(DataSourceConfig.class)
 public class GatewayApiApplication {
 
 	public static void main(String[] args) {
